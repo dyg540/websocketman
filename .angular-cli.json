@@ -19,9 +19,12 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.sass"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/prismjs/prism.js",
+        "../node_modules/prismjs/components/prism-json.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -54,7 +57,7 @@
     }
   },
   "defaults": {
-    "styleExt": "css",
+    "styleExt": "sass",
     "component": {}
   }
 }
