@@ -1,5 +1,7 @@
 # Websocketman
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pedroraft/websocketman.svg)](https://greenkeeper.io/)
+
 ![print](./print.png)
 
  generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.3.2.
